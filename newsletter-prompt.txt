@@ -1,0 +1,960 @@
+=== GENERATION REQUEST ===
+
+Today is: {{DAY_OF_WEEK}}
+ISO date: {{ISO_DATE}}
+
+Generate TODAY'S complete newsletter issue following the schedule below.
+
+╔═══════════════════════════════════════════════════════════════╗
+║  WEEKLY CONTENT SCHEDULE                                      ║
+╚═══════════════════════════════════════════════════════════════╝
+
+┌─ MONDAY: 🤖 AI TECHNICAL MASTERY (25-30 min) ─────────────────┐
+│ Target: 5500 words                                             │
+│                                                                │
+│ 1. DEEP DIVE TECHNIQUE (2000w)                                 │
+│    Pick ONE advanced topic:                                    │
+│    • Transformer architectures (attention mechanisms)          │
+│    • RLHF (Reinforcement Learning from Human Feedback)        │
+│    • Multi-agent systems & coordination                        │
+│    • RAG architectures (retrieval-augmented generation)        │
+│    • Tool use & function calling in LLMs                       │
+│    • Mixture of Experts (MoE)                                  │
+│                                                                │
+│    Must include:                                               │
+│    ✓ Intuition (explain like to ML engineer)                   │
+│    ✓ Math formulation (use LaTeX: $$formula$$)                 │
+│    ✓ Architecture diagram (described in text)                  │
+│    ✓ Recent paper analysis:                                    │
+│      - Title, authors, venue, date (2023-2024)                 │
+│      - Key contributions                                       │
+│      - Results & benchmarks                                    │
+│                                                                │
+│ 2. CODE IMPLEMENTATION (1500w)                                 │
+│    ✓ Complete Python code (80-150 lines)                       │
+│    ✓ Real libraries (transformers, langchain, openai)          │
+│    ✓ Line-by-line explanation                                  │
+│    ✓ How to run + expected output                              │
+│    ✓ Common errors & fixes                                     │
+│                                                                │
+│ 3. INDUSTRY APPLICATION (1000w)                                │
+│    ✓ How McKinsey/BCG QuantumBlack uses this                   │
+│    ✓ PE automation use case (deal screening, memo gen)         │
+│    ✓ AI agent architecture for PE associates:                  │
+│      - Input: raw data sources                                 │
+│      - Processing: which models/tools                          │
+│      - Output: deliverable format                              │
+│                                                                │
+│ 4. PRACTICAL EXERCISE (1000w)                                  │
+│    ✓ Problem statement (specific, technical)                   │
+│    ✓ Hints & approach                                          │
+│    ✓ Complete solution with code                               │
+│    ✓ Extensions to try                                         │
+│                                                                │
+│ QUOTE: AI researcher, founder, or strategist                   │
+│ RESOURCES: 3 items (arxiv papers, GitHub, blog posts)          │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ TUESDAY: 💼 MBB CASE MASTERY (20-25 min) ────────────────────┐
+│ Target: 4800 words                                             │
+│                                                                │
+│ 1. FRAMEWORK DEEP-DIVE (1200w)                                 │
+│    Pick ONE framework:                                         │
+│    • Profitability analysis                                    │
+│    • Market entry strategy                                     │
+│    • M&A target screening                                      │
+│    • Pricing strategy                                          │
+│    • Growth strategy                                           │
+│                                                                │
+│    Must include:                                               │
+│    ✓ Complete framework structure (visual tree)                │
+│    ✓ When to use it                                            │
+│    ✓ Common variations                                         │
+│    ✓ Red flags interviewers watch for                          │
+│                                                                │
+│ 2. FULL MBB CASE (2000w)                                       │
+│    ✓ Industry context (tech, healthcare, financial services)   │
+│    ✓ Client situation & question                               │
+│    ✓ Data exhibits (3-5 tables/charts described):              │
+│      - Market size data                                        │
+│      - Competitor positioning                                  │
+│      - Financial metrics                                       │
+│    ✓ Guided solution:                                          │
+│      - Structure (issue tree)                                  │
+│      - Analysis (math calculations shown)                      │
+│      - Insights (so what?)                                     │
+│      - Recommendation (clear, actionable)                      │
+│    ✓ What made this answer great (meta-commentary)             │
+│                                                                │
+│ 3. AI DISRUPTION ANGLE (1000w)                                 │
+│    ✓ How an AI agent solves this case                          │
+│    ✓ Which tasks it automates                                  │
+│    ✓ Current limitations (reasoning, creativity)               │
+│    ✓ Your startup's unique approach                            │
+│                                                                │
+│ 4. INTERVIEW INTEL (600w)                                      │
+│    ✓ 3 common mistakes candidates make                         │
+│    ✓ How to stand out (beyond solving correctly)               │
+│                                                                │
+│ QUOTE: MBB partner, case expert, or strategist                │
+│ RESOURCE: 1 case interview recording/book chapter              │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ WEDNESDAY: 🚀 STARTUP & PE PLAYBOOK (25-30 min) ─────────────┐
+│ Target: 5500 words                                             │
+│                                                                │
+│ 1. PE DEAL ANALYSIS (2000w)                                    │
+│    Pick ONE real deal (2023-2024):                             │
+│    ✓ Company overview (industry, size, business model)         │
+│    ✓ Deal structure:                                           │
+│      - Acquisition / LBO / Growth equity                       │
+│      - Deal value                                              │
+│      - Buyer background                                        │
+│    ✓ Valuation deep-dive:                                      │
+│      - EV/EBITDA multiple                                      │
+│      - DCF assumptions                                         │
+│      - Comparable transactions                                 │
+│    ✓ Due diligence process:                                    │
+│      - Market analysis                                         │
+│      - Financial model review                                  │
+│      - Risk assessment                                         │
+│    ✓ Associate's work breakdown (what they did)                │
+│                                                                │
+│ 2. AUTOMATION ARCHITECTURE (2000w)                             │
+│    Pick ONE associate task:                                    │
+│    • Investment memo writing                                   │
+│    • Market research & data aggregation                        │
+│    • Comparable company analysis                               │
+│    • Financial statement extraction                            │
+│                                                                │
+│    Must include:                                               │
+│    ✓ Manual process (step-by-step)                             │
+│    ✓ Pain points & time sink                                   │
+│    ✓ AI agent architecture:                                    │
+│      - Data sources & APIs                                     │
+│      - LLM orchestration                                       │
+│      - Tools & integrations                                    │
+│      - Quality control layer                                   │
+│    ✓ Tech stack recommendation:                                │
+│      - Models (GPT-4, Claude, Llama)                           │
+│      - Frameworks (LangChain, CrewAI)                          │
+│      - Infrastructure (cloud, DB)                              │
+│    ✓ Code skeleton (architecture only, ~50 lines)              │
+│                                                                │
+│ 3. STARTUP LESSON (1000w)                                      │
+│    Pick ONE topic:                                             │
+│    • Go-to-market strategy                                     │
+│    • Pricing models (for B2B SaaS)                             │
+│    • Seed fundraising tactics                                  │
+│    • Product-market fit signals                                │
+│    • First 10 customers strategy                               │
+│                                                                │
+│    Must include:                                               │
+│    ✓ Core framework/principles                                 │
+│    ✓ Real example from successful startup (with dates)         │
+│    ✓ Application to AI agent startup in PE                     │
+│    ✓ Common mistakes to avoid                                  │
+│                                                                │
+│ 4. WEEKLY ACTIONS (500w)                                       │
+│    ✓ 3 concrete tasks for this week                            │
+│    ✓ Success metrics                                           │
+│                                                                │
+│ QUOTE: Founder, VC, or PE partner                              │
+│ RESOURCE: 1 startup post-mortem or fundraising article         │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ THURSDAY: 🎯 MBB INTERVIEW TACTICS (20-25 min) ──────────────┐
+│ Target: 4500 words                                             │
+│                                                                │
+│ 1. BEHAVIORAL INTERVIEWS (1800w)                               │
+│    Provide 3 fit questions:                                    │
+│    • 1 leadership question                                     │
+│    • 1 impact/achievement question                             │
+│    • 1 failure/conflict question                               │
+│                                                                │
+│    For each question:                                          │
+│    ✓ Why firms ask this                                        │
+│    ✓ STAR-structured answer (Situation, Task, Action, Result): │
+│      - Use EY Forensic experience                              │
+│      - Include metrics/impact                                  │
+│      - Show growth/learning                                    │
+│    ✓ Why this answer works (meta-analysis)                     │
+│    ✓ Common follow-up questions                                │
+│    ✓ Red flags to avoid                                        │
+│                                                                │
+│ 2. PERSONAL FIT STRATEGY (1200w)                               │
+│    ✓ Crafting your narrative:                                  │
+│      - EY → MBB: why consulting?                               │
+│      - MBB → Startup: addressing the elephant                  │
+│    ✓ Addressing "why leave after 2 years?"                     │
+│    ✓ Pitching your AI project:                                 │
+│      - Show passion WITHOUT seeming uncommitted                │
+│      - Frame as learning goal, not exit plan                   │
+│    ✓ Red flag scenarios:                                       │
+│      - "I want MBB for the brand"                              │
+│      - "I'm just exploring options"                            │
+│      - "Startups are too risky"                                │
+│    ✓ Example narratives (good vs bad)                          │
+│                                                                │
+│ 3. NETWORKING MASTERCLASS (1000w)                              │
+│    Pick ONE advanced tactic:                                   │
+│    • Coffee chat strategy (before, during, after)              │
+│    • LinkedIn outreach that gets replies                       │
+│    • Getting referrals from weak ties                          │
+│    • Alumni network activation                                 │
+│    • Conference/event networking                               │
+│                                                                │
+│    Must include:                                               │
+│    ✓ Detailed playbook                                         │
+│    ✓ Message templates (3 examples)                            │
+│    ✓ Common mistakes                                           │
+│    ✓ THIS WEEK'S ACTION:                                       │
+│      - 1 specific person to contact                            │
+│      - Draft message                                           │
+│      - Expected outcome                                        │
+│                                                                │
+│ 4. CURVEBALL Q&A (500w)                                        │
+│    ✓ 2 unexpected interview questions                          │
+│    ✓ How to handle each                                        │
+│                                                                │
+│ QUOTE: MBB recruiter, partner, or career coach                 │
+│ RESOURCE: 1 LinkedIn profile to study (with analysis)          │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ FRIDAY: 📊 MARKET INTELLIGENCE & SYNTHESIS (25-30 min) ──────┐
+│ Target: 5500 words                                             │
+│                                                                │
+│ 1. WEEKLY AI NEWS (1500w)                                      │
+│    Cover 6-8 top stories (this week):                          │
+│    • OpenAI / Anthropic / Google releases                      │
+│    • AI regulations / policy                                   │
+│    • Research breakthroughs                                    │
+│    • Industry applications                                     │
+│                                                                │
+│    For each story:                                             │
+│    ✓ What happened (facts + date)                              │
+│    ✓ Why it matters for consulting                             │
+│    ✓ Why it matters for PE/VC                                  │
+│    ✓ Your hot take (contrarian angle welcome)                  │
+│                                                                │
+│ 2. PE/VC DEALS ANALYSIS (1200w)                                │
+│    Cover 3 recent deals (this week):                           │
+│    ✓ Deal overview (company, amount, investors)                │
+│    ✓ Investment thesis decoded                                 │
+│    ✓ What this signals about market trends                     │
+│    ✓ Lessons for your startup                                  │
+│                                                                │
+│ 3. STRATEGIC SYNTHESIS (1500w)                                 │
+│    ✓ Connect the dots:                                         │
+│      - AI trends → consulting business model shifts            │
+│      - AI trends → PE investment opportunities                 │
+│      - Emerging patterns across news/deals                     │
+│    ✓ Deep question of the week (thought-provoking)             │
+│    ✓ Contrarian take (challenge conventional wisdom)           │
+│    ✓ What most people are missing                              │
+│                                                                │
+│ 4. ACTION PLAN (800w)                                          │
+│    ✓ Top 3 priorities for next week:                           │
+│      - MBB interview prep focus                                │
+│      - Technical skill to practice                             │
+│      - Startup progress milestone                              │
+│    ✓ Networking goals (who to contact)                         │
+│    ✓ Learning objectives                                       │
+│                                                                │
+│ 5. READING LIST (500w)                                         │
+│    Curate 5 resources:                                         │
+│    • 2 technical (papers, tutorials)                           │
+│    • 2 strategic (articles, podcasts)                          │
+│    • 1 wildcard (inspiration)                                  │
+│                                                                │
+│    For each:                                                   │
+│    ✓ Title + link                                              │
+│    ✓ Why it matters (2-3 sentences)                            │
+│    ✓ Key takeaway                                              │
+│    ✓ Time investment                                           │
+│                                                                │
+│ QUOTE: Thought leader, investor, or technologist               │
+│ CHECKLIST: Weekly self-assessment (6-8 questions)              │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ SATURDAY: 📝 TECHNICAL INTERVIEW SIMULATION (30 min) ────────┐
+│ Target: 6000 words                                             │
+│                                                                │
+│ Simulate a real ML engineering interview:                      │
+│                                                                │
+│ 1. WARM-UP (800w)                                              │
+│    5 quick questions:                                          │
+│    ✓ Python/NumPy fundamentals                                 │
+│    ✓ Probability & statistics                                  │
+│    ✓ Linear algebra                                            │
+│    With brief answers                                          │
+│                                                                │
+│ 2. ML THEORY (1500w)                                           │
+│    2 questions covering:                                       │
+│    • Bias-variance tradeoff                                    │
+│    • Overfitting prevention                                    │
+│    • Model evaluation metrics                                  │
+│    • Optimization algorithms                                   │
+│                                                                │
+│ 3. DEEP LEARNING (1500w)                                       │
+│    1 in-depth question:                                        │
+│    • Transformer architecture details                          │
+│    • Training stability (gradient issues)                      │
+│    • Attention mechanisms                                      │
+│                                                                │
+│ 4. LLMs & AGENTS (1500w)                                       │
+│    1 system design question:                                   │
+│    "Design an AI agent system for [specific task]"             │
+│    ✓ Architecture                                              │
+│    ✓ Component selection                                       │
+│    ✓ Evaluation strategy                                       │
+│    ✓ Failure modes                                             │
+│                                                                │
+│ 5. SOLUTIONS (700w)                                            │
+│    Detailed answers to all questions                           │
+│    What interviewers look for                                  │
+│                                                                │
+│ QUOTE: AI researcher or hiring manager                         │
+│ RESOURCES: 3 interview prep materials                          │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ SUNDAY: 🧘 WEEKLY REVIEW & STRATEGY (25 min) ────────────────┐
+│ Target: 5000 words                                             │
+│                                                                │
+│ 1. WEEK RECAP (1000w)                                          │
+│    ✓ Monday-Saturday key concepts summary                      │
+│    ✓ Technical skills covered                                  │
+│    ✓ Strategic frameworks learned                              │
+│    ✓ What you should have internalized                         │
+│                                                                │
+│ 2. SELF-ASSESSMENT (1000w)                                     │
+│    Test yourself:                                              │
+│    • 5 technical questions (no answers provided)               │
+│    • 3 case interview prompts                                  │
+│    • 2 fit interview questions                                 │
+│    "Can you answer these confidently?"                         │
+│                                                                │
+│ 3. NEXT WEEK PREVIEW (1000w)                                   │
+│    ✓ Upcoming topics                                           │
+│    ✓ Skills to prepare                                         │
+│    ✓ Recommended pre-reading                                   │
+│                                                                │
+│ 4. LONG-TERM STRATEGY (1000w)                                  │
+│    ✓ MBB prep timeline (11 months to go)                       │
+│    ✓ Startup milestones roadmap                                │
+│    ✓ Skill development priorities                              │
+│    ✓ Network building targets                                  │
+│                                                                │
+│ 5. REFLECTION PROMPTS (1000w)                                  │
+│    6-8 deep questions:                                         │
+│    • About your goals                                          │
+│    • About your progress                                       │
+│    • About your strategy                                       │
+│    • About your mindset                                        │
+│                                                                │
+│ QUOTE: Philosopher, strategist, or founder                     │
+│ RESOURCES: 3 long-form pieces for deep thinking                │
+└────────────────────────────────────────────────────────────────┘
+
+╔═══════════════════════════════════════════════════════════════╗
+║  CRITICAL QUALITY STANDARDS                                   ║
+╚═══════════════════════════════════════════════════════════════╝
+
+✅ DEPTH: Every section must hit minimum word count
+✅ SPECIFICITY: Use real names, dates, numbers, papers, companies
+✅ RUNNABLE: All code must execute (test mentally)
+✅ ACTIONABLE: Every lesson needs concrete next steps
+✅ EXPERT-LEVEL: No explaining basics (assume ML knowledge)
+✅ EXAMPLES: Every framework needs a worked example
+✅ SOURCES: Every claim needs a reference
+✅ RECENCY: Prioritize 2023-2024 examples
+✅ NO FLUFF: Cut any generic advice
+✅ NO PLACEHOLDERS: Never write "[insert X]" or "for example"
+
+╔═══════════════════════════════════════════════════════════════╗
+║  JSON OUTPUT SCHEMA                                           ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Return EXACTLY this structure:
+
+{
+  "meta": {
+    "newsletter_name": "The AI Strategy Edge",
+    "date": "YYYY-MM-DD",
+    "day": "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday",
+    "theme": "AI Technical Mastery|MBB Case Mastery|etc",
+    "edition_number": 1,
+    "duration_minutes": 28,
+    "word_count": 5500,
+    "difficulty": "Expert"
+  },
+  "sections": [
+    {
+      "order": 1,
+      "title": "Deep Dive: [Specific Topic]",
+      "subtitle": "Optional subtitle",
+      "duration_minutes": 15,
+      "word_count": 2000,
+      "content": "Full markdown content with headings, code blocks, LaTeX math",
+      "key_takeaways": [
+        "Takeaway 1",
+        "Takeaway 2",
+        "Takeaway 3"
+      ]
+    }
+  ],
+  "quote": {
+    "text": "The actual quote",
+    "author": "Full Name",
+    "title": "Title/Company",
+    "context": "When/where said",
+    "relevance": "Why this quote matters today"
+  },
+  "resources": [
+    {
+      "order": 1,
+      "title": "Resource title",
+      "url": "https://...",
+      "type": "paper|article|podcast|video|repo|book",
+      "authors": "Author names",
+      "date": "YYYY-MM",
+      "why_read": "Why it matters",
+      "key_takeaway": "Main insight",
+      "time_investment": "X minutes"
+    }
+  ],
+  "next_actions": [
+    {
+      "order": 1,
+      "action": "Specific action description",
+      "time_required": "X hours",
+      "difficulty": "Easy|Medium|Hard",
+      "impact": "Low|Medium|High - reason"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "RLHF",
+      "definition": "Reinforcement Learning from Human Feedback"
+    }
+  ]
+}
+
+╔═══════════════════════════════════════════════════════════════╗
+║  FINAL INSTRUCTIONS                                           ║
+╚═══════════════════════════════════════════════════════════════╝
+
+1. Generate ONLY for: {{DAY_OF_WEEK}}
+2. Meet ALL word count targets
+3. Include ONLY real, verifiable information
+4. Return ONLY the JSON (no markdown wrapper, no explanation)
+5. Ensure JSON is valid (proper escaping)
+
+BEGIN GENERATION NOW.
+```
+
+4. **Get raw URL** : `https://raw.githubusercontent.com/yourusername/yourrepo/main/newsletter-prompt.txt`
+
+---
+
+## ⚙️ **ÉTAPE 2 : Workflow n8n complet**
+
+### **Node 1 : Schedule Trigger**
+```
+Type: Schedule Trigger
+Cron: 0 7 * * * (tous les jours à 7h)
+```
+
+### **Node 2 : Get Current Date**
+```
+Type: Set
+Name: Get Current Date
+
+Parameters:
+{
+  "values": {
+    "string": [
+      {
+        "name": "dayOfWeek",
+        "value": "={{ $now.format('dddd') }}"
+      },
+      {
+        "name": "isoDate",
+        "value": "={{ $now.toISO() }}"
+      },
+      {
+        "name": "dateFormatted",
+        "value": "={{ $now.format('yyyy-MM-dd') }}"
+      }
+    ]
+  }
+}
+```
+
+### **Node 3 : Fetch Prompt Template**
+```
+Type: HTTP Request
+Name: Fetch Prompt Template
+
+Method: GET
+URL: https://raw.githubusercontent.com/yourusername/yourrepo/main/newsletter-prompt.txt
+
+Response Format: String
+```
+
+### **Node 4 : Replace Variables**
+```
+Type: Code
+Name: Replace Variables
+Language: JavaScript
+
+Code:
+const promptTemplate = $input.first().json.data;
+const dateData = $('Get Current Date').first().json;
+
+const finalPrompt = promptTemplate
+  .replace(/\{\{DAY_OF_WEEK\}\}/g, dateData.dayOfWeek)
+  .replace(/\{\{ISO_DATE\}\}/g, dateData.isoDate);
+
+return {
+  json: {
+    prompt: finalPrompt,
+    dayOfWeek: dateData.dayOfWeek,
+    dateFormatted: dateData.dateFormatted
+  }
+};
+```
+
+### **Node 5 : OpenAI Generate**
+```
+Type: OpenAI
+Name: Generate Newsletter
+
+Resource: Chat
+Model: gpt-4o
+
+Options:
+- Max Tokens: 16000
+- Temperature: 0.8
+- Response Format: json_object
+
+Messages:
+[
+  {
+    "role": "system",
+    "content": "You are the world-class editorial AI behind \"The AI Strategy Edge\" - a premium newsletter for MBB consultants, PE associates, and AI founders.\n\nYour mission: Generate DEEP, ACTIONABLE, EXPERT-LEVEL content. No fluff, no placeholders.\n\nAudience expertise:\n- M2 Machine Learning (Dauphine PSL level)\n- EY Data Science experience\n- Target: McKinsey/Bain/BCG roles\n- Building AI agents for Private Equity automation\n\nWriting style:\n- McKinsey Quarterly meets a16z Future blog\n- Technical precision + strategic vision\n- Real examples, real code, real deals\n- Zero generic advice\n\nCRITICAL CONSTRAINTS:\n- Target: 20-30 min reading (4500-6000 words)\n- Every code block MUST be runnable\n- Every case MUST have real data/numbers\n- Every company/paper reference MUST include date\n- NO placeholders like \"[insert example]\"\n- Write for experts, not beginners\n\nOUTPUT: ALWAYS return valid JSON only. No preamble, no markdown wrapper."
+  },
+  {
+    "role": "user",
+    "content": "={{ $json.prompt }}"
+  }
+]
+```
+
+### **Node 6 : Parse JSON**
+```
+Type: Code
+Name: Parse & Validate JSON
+Language: JavaScript
+
+Code:
+try {
+  const response = $input.first().json.choices[0].message.content;
+  
+  // Remove markdown code blocks if present
+  let cleaned = response.trim();
+  if (cleaned.startsWith('```json')) {
+    cleaned = cleaned.replace(/```json\n?/g, '').replace(/```\n?$/g, '');
+  }
+  if (cleaned.startsWith('```')) {
+    cleaned = cleaned.replace(/```\n?/g, '').replace(/```\n?$/g, '');
+  }
+  
+  // Parse JSON
+  const newsletter = JSON.parse(cleaned);
+  
+  // Validate required fields
+  if (!newsletter.meta || !newsletter.sections || !newsletter.quote) {
+    throw new Error('Missing required fields in newsletter JSON');
+  }
+  
+  // Check word count
+  const totalWords = newsletter.sections.reduce((sum, s) => sum + (s.word_count || 0), 0);
+  if (totalWords < 4000) {
+    throw new Error(`Word count too low: ${totalWords} words (min 4000)`);
+  }
+  
+  return {
+    json: {
+      success: true,
+      newsletter: newsletter,
+      validation: {
+        word_count: totalWords,
+        sections_count: newsletter.sections.length,
+        has_quote: !!newsletter.quote,
+        has_resources: newsletter.resources && newsletter.resources.length > 0
+      }
+    }
+  };
+  
+} catch (error) {
+  return {
+    json: {
+      success: false,
+      error: error.message,
+      raw_response: $input.first().json.choices[0].message.content
+    }
+  };
+}
+```
+
+### **Node 7 : IF - Success Check**
+```
+Type: IF
+Name: Check Generation Success
+
+Conditions:
+- Value 1: {{ $json.success }}
+- Operation: Equal
+- Value 2: true
+```
+
+### **Node 8a : Format to HTML** (si success = true)
+```
+Type: Code
+Name: Format to HTML
+Language: JavaScript
+
+Code:
+const newsletter = $input.first().json.newsletter;
+const marked = require('marked'); // n8n includes marked
+
+// Convert markdown to HTML
+const sectionsHtml = newsletter.sections
+  .sort((a, b) => a.order - b.order)
+  .map(section => {
+    const contentHtml = marked.parse(section.content);
+    return `
+      <div class="section">
+        <h2>${section.title}</h2>
+        ${section.subtitle ? `<h3>${section.subtitle}</h3>` : ''}
+        <p class="meta">📖 ${section.duration_minutes} min · ${section.word_count} words</p>
+        <div class="content">
+          ${contentHtml}
+        </div>
+        ${section.key_takeaways ? `
+          <div class="takeaways">
+            <h4>Key Takeaways:</h4>
+            <ul>
+              ${section.key_takeaways.map(t => `<li>${t}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }).join('\n');
+
+const resourcesHtml = newsletter.resources
+  .sort((a, b) => a.order - b.order)
+  .map(r => `
+    <li>
+      <strong><a href="${r.url}" target="_blank">${r.title}</a></strong>
+      ${r.authors ? ` by ${r.authors}` : ''}
+      ${r.date ? ` (${r.date})` : ''}
+      <br>
+      <em>${r.type}</em> · ${r.time_investment}
+      <br>
+      ${r.why_read}
+    </li>
+  `).join('\n');
+
+const actionsHtml = newsletter.next_actions
+  .sort((a, b) => a.order - b.order)
+  .map(a => `
+    <li>
+      <strong>${a.action}</strong>
+      <br>
+      ⏱️ ${a.time_required} · 
+      🎯 Difficulty: ${a.difficulty} · 
+      💥 Impact: ${a.impact}
+    </li>
+  `).join('\n');
+
+const html = `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .header {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: #1e293b;
+      margin: 0 0 10px 0;
+    }
+    .meta {
+      color: #64748b;
+      font-size: 14px;
+    }
+    .section {
+      margin: 40px 0;
+      padding: 30px 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      color: #0f172a;
+      margin-top: 0;
+    }
+    h3 {
+      color: #475569;
+      font-weight: 500;
+    }
+    .content {
+      margin: 20px 0;
+    }
+    pre {
+      background: #f1f5f9;
+      padding: 16px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 14px;
+    }
+    .takeaways {
+      background: #dbeafe;
+      padding: 20px;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    .takeaways h4 {
+      margin-top: 0;
+      color: #1e40af;
+    }
+    .quote-box {
+      background: #f8fafc;
+      border-left: 4px solid #2563eb;
+      padding: 20px;
+      margin: 30px 0;
+      font-style: italic;
+    }
+    .quote-author {
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 600;
+      color: #475569;
+    }
+    .resources, .actions {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>${newsletter.meta.newsletter_name}</h1>
+      <p class="meta">
+        ${newsletter.meta.theme} · 
+        ${newsletter.meta.day}, ${newsletter.meta.date} · 
+        Edition #${newsletter.meta.edition_number} · 
+        📚 ${newsletter.meta.duration_minutes} min read · 
+        ${newsletter.meta.word_count.toLocaleString()} words
+      </p>
+    </div>
+
+    ${sectionsHtml}
+
+    <div class="quote-box">
+      <p>"${newsletter.quote.text}"</p>
+      <p class="quote-author">
+        — ${newsletter.quote.author}, ${newsletter.quote.title}
+        ${newsletter.quote.context ? `<br><small>${newsletter.quote.context}</small>` : ''}
+      </p>
+      ${newsletter.quote.relevance ? `<p><small><em>${newsletter.quote.relevance}</em></small></p>` : ''}
+    </div>
+
+    ${newsletter.resources && newsletter.resources.length > 0 ? `
+      <div class="resources">
+        <h3>📚 Resources to Explore</h3>
+        <ul>${resourcesHtml}</ul>
+      </div>
+    ` : ''}
+
+    ${newsletter.next_actions && newsletter.next_actions.length > 0 ? `
+      <div class="actions">
+        <h3>✅ Next Actions</h3>
+        <ul>${actionsHtml}</ul>
+      </div>
+    ` : ''}
+
+    ${newsletter.glossary && newsletter.glossary.length > 0 ? `
+      <div class="glossary">
+        <h3>📖 Glossary</h3>
+        <ul>
+          ${newsletter.glossary.map(g => `<li><strong>${g.term}</strong>: ${g.definition}</li>`).join('')}
+        </ul>
+      </div>
+    ` : ''}
+  </div>
+</body>
+</html>
+`;
+
+return {
+  json: {
+    html: html,
+    subject: `${newsletter.meta.theme} - ${newsletter.meta.day}, ${newsletter.meta.date}`,
+    meta: newsletter.meta
+  }
+};
+```
+
+### **Node 8b : Send Error Alert** (si success = false)
+```
+Type: Send Email
+Name: Send Error Alert
+
+To: your-email@example.com
+Subject: ⚠️ Newsletter Generation Failed - {{ $now.format('yyyy-MM-dd') }}
+
+Message:
+Generation failed with error:
+
+{{ $json.error }}
+
+Raw response (first 500 chars):
+{{ $json.raw_response.substring(0, 500) }}
+
+Please check n8n logs for full details.
+```
+
+### **Node 9 : Send Newsletter Email** (après node 8a)
+```
+Type: Send Email
+Name: Send Newsletter
+
+To: your-email@example.com
+Subject: ={{ $json.subject }}
+Email Type: HTML
+Message: ={{ $json.html }}
+```
+
+### **Node 10 : Store in Database** (optionnel, après node 9)
+```
+Type: Postgres / MySQL / MongoDB
+Name: Store Newsletter
+
+Operation: Insert
+
+Table: newsletters
+
+Fields:
+- date: {{ $('Get Current Date').item.json.dateFormatted }}
+- day: {{ $('Get Current Date').item.json.dayOfWeek }}
+- theme: {{ $json.meta.theme }}
+- word_count: {{ $json.meta.word_count }}
+- duration_minutes: {{ $json.meta.duration_minutes }}
+- html_content: {{ $json.html }}
+- json_data: {{ JSON.stringify($('Parse & Validate JSON').item.json.newsletter) }}
+- created_at: {{ $now.toISO() }}
+```
+
+---
+
+## 📊 **ÉTAPE 3 : Schéma visuel du workflow**
+```
+┌──────────────────────┐
+│ Schedule Trigger     │
+│ (Daily at 7am)       │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Get Current Date     │
+│ (dayOfWeek, isoDate) │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Fetch Prompt         │
+│ (GitHub raw URL)     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Replace Variables    │
+│ ({{DAY}} → Monday)   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ OpenAI Generate      │
+│ (gpt-4o, 16k tokens) │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Parse & Validate     │
+│ (Check JSON, words)  │
+└──────────┬───────────┘
+           │
+           ▼
+      ┌────┴────┐
+      │   IF    │
+      └─┬────┬──┘
+        │    │
+    SUCCESS  FAIL
+        │    │
+        ▼    ▼
+   ┌────┴────┐  ┌─────────────┐
+   │ Format  │  │ Send Error  │
+   │ to HTML │  │    Alert    │
+   └────┬────┘  └─────────────┘
+        │
+        ▼
+   ┌────────────┐
+   │ Send Email │
+   └────┬───────┘
+        │
+        ▼
+   ┌────────────┐
+   │ Store in   │
+   │ Database   │
+   └────────────┘
